@@ -422,4 +422,4 @@ while run:
     pygame.display.update()
 
 pygame.display.quit()
-print(f"You won with a score of {score}") if hasWon(grid) else print(f"you lost wit a score of {score}")
+print(f"You won with a score of {score}") if hasWon(grid) else print(f"you lost with a score of {score}")
