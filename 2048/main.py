@@ -381,7 +381,7 @@ score = 0
 while run:
     if hasWon(grid) :
         score = 0
-        grid = resetGrid()
+        run = False
 
     elif cannotMove(grid):
         time.sleep(5)
