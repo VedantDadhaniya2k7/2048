@@ -380,7 +380,7 @@ score = 0
 # MAIN
 while run:
     if hasWon(grid) :
-        score = 0
+        time.sleep(2)
         run = False
 
     elif cannotMove(grid):
